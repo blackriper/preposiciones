@@ -3,9 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify';
+import VueIframe from 'vue-iframes'
 import '@babel/polyfill'
 
 Vue.config.productionTip = false
+Vue.use(VueIframe)
 
 new Vue({
   router,
