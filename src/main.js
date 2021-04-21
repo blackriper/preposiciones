@@ -4,11 +4,14 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify';
 import VueIframe from 'vue-iframes'
+import vueAudioNative from 'vue-audio-native'
+
+
 import '@babel/polyfill'
 
 Vue.config.productionTip = false
 Vue.use(VueIframe)
-
+Vue.use(vueAudioNative)
 new Vue({
   router,
   store,

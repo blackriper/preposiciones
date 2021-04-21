@@ -39,7 +39,7 @@
             </v-list-item-content>
           </v-list-item>
 
-          <v-list-item link  to="/about">
+          <v-list-item link  to="/listening">
             <v-list-item-icon>
               <v-icon>headphones</v-icon>
             </v-list-item-icon>
@@ -48,7 +48,7 @@
             </v-list-item-content>
           </v-list-item>
 
-          <v-list-item link  to="">
+          <v-list-item link  to="/understanding">
             <v-list-item-icon>
               <v-icon>local_movies</v-icon>
             </v-list-item-icon>
@@ -77,7 +77,7 @@
               </v-list-item-content>
             </v-list-item>
 
-            <v-list-item link  to="">
+            <v-list-item link  to="/activity3">
               <v-list-item-content>
                 <v-list-item-title>Activity 3</v-list-item-title>
               </v-list-item-content>
